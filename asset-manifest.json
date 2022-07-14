@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/IDENTITY/static/css/main.24bbe4b3.css",
+    "main.js": "/IDENTITY/static/js/main.6ef482dd.js",
+    "static/js/787.bbf40312.chunk.js": "/IDENTITY/static/js/787.bbf40312.chunk.js",
+    "static/media/canvas.jpg": "/IDENTITY/static/media/canvas.eb2b72b7a8409ddc45ff.jpg",
+    "static/media/background.jpg": "/IDENTITY/static/media/background.2f0d2edefa12e9b6d0c2.jpg",
+    "static/media/new_bg.jpg": "/IDENTITY/static/media/new_bg.0d7388d0afe00a86592d.jpg",
+    "static/media/lana.jpg": "/IDENTITY/static/media/lana.89cba278532ff466b601.jpg",
+    "static/media/insta.jpg": "/IDENTITY/static/media/insta.65709d0fcc960c0c1b11.jpg",
+    "static/media/fb.jpg": "/IDENTITY/static/media/fb.6cffd1348cecb257cd8e.jpg",
+    "static/media/linked.jpg": "/IDENTITY/static/media/linked.43caf7b916f805b8aa8d.jpg",
+    "static/media/wp.jpg": "/IDENTITY/static/media/wp.40c91687d4abaa362550.jpg",
+    "static/media/pre_loader.gif": "/IDENTITY/static/media/pre_loader.a3f8997ea34380106d76.gif",
+    "static/media/phonecall.png": "/IDENTITY/static/media/phonecall.555baddb7dc7222fcd8d.png",
+    "static/media/mail.png": "/IDENTITY/static/media/mail.f63e314696a068b00d5b.png",
+    "static/media/profile_pic.jpg": "/IDENTITY/static/media/profile_pic.284f02e75e02d35700bc.jpg",
+    "static/media/mapsandflags.png": "/IDENTITY/static/media/mapsandflags.8874f5a9766504b9874b.png",
+    "index.html": "/IDENTITY/index.html",
+    "main.24bbe4b3.css.map": "/IDENTITY/static/css/main.24bbe4b3.css.map",
+    "main.6ef482dd.js.map": "/IDENTITY/static/js/main.6ef482dd.js.map",
+    "787.bbf40312.chunk.js.map": "/IDENTITY/static/js/787.bbf40312.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24bbe4b3.css",
+    "static/js/main.6ef482dd.js"
+  ]
+}
