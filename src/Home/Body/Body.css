@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Narrow:ital@1&family=Cormorant+Garamond:ital,wght@1,300&family=Crete+Round:ital@1&family=Gentium+Plus&family=Lobster+Two&display=swap');
+.bodyhome {
+    color: white;
+    margin: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.check {
+    position: relative;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Archivo Narrow', sans-serif;
+}

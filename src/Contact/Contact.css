@@ -1,0 +1,205 @@
+.about_wrapper {
+    color: white;
+    box-sizing: border-box;
+}
+
+.box {
+    display: block;
+    width: 450px;
+    margin-bottom: 35px;
+}
+
+.contact_icon {
+    margin-left: 10px;
+    margin-right: -70px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: relative;
+    margin-left: 50px;
+}
+
+.contact_heading_box {
+    margin-left: 18px;
+    color: #6DCFF6;
+}
+
+.contact_writing {
+    margin-bottom: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contact_writing_box {
+    position: relative;
+    margin-left: 19px;
+}
+
+.contact_us {
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+
+/* .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    display: inline-block;
+    width: 40%;
+}  */
+
+
+/* .container {
+    display: flex;
+} */
+
+.contactInfo {
+    display: inline-block;
+    width: 44%;
+    padding-left: 6%;
+}
+
+
+/* .contactForm {
+    align-self: center;
+    padding-left: 5%;
+    color: black;
+    background: #fff;
+    margin-left: 65px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    margin-bottom: 40px;
+} */
+
+.contactForm {
+    margin-left: 20%;
+    margin-right: 0px;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+.form__field:placeholder-shown~.form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+}
+
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+
+.form__field:focus~.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+}
+
+
+/* reset input */
+
+.form__field:required,
+.form__field:invalid {
+    box-shadow: none;
+}
+
+.send_message {
+    margin-top: 80px;
+}
+
+
+/* CSS */
+
+.button-51 {
+    margin: 30px;
+    margin-left: 0%;
+    margin-right: 25%;
+    background-color: transparent;
+    border: 1px solid #266DB6;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+    outline: 0;
+}
+
+.button-51:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button-51:before {
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+}
+
+.button-51:hover:before {
+    background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+    .button-51 {
+        padding: 16px 32px;
+    }
+}

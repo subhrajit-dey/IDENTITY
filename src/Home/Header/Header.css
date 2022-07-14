@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+.headerhome {
+    color: white;
+    margin-top: 100px;
+    float: left;
+}
+
+.new_background {
+    background: url("./new_bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.for_background {
+    background-color: rgb(26, 2, 82);
+    display: inline-block;
+    width: 80%;
+    border-radius: 60px;
+}
+
+.hello {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+}
+
+.iam {
+    font-family: 'Tapestry', cursive;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 70px;
+}
+
+.para {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+}
+
+.aboutbtn {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 50px;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    width: 230px;
+    background-color: #b54036;
+    border: 1px solid #b54036;
+    cursor: pointer;
+}
+
+.aboutbtn:hover {
+    background-color: #f09087;
+}
+
+.contactbtn {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 50px;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    width: 230px;
+    background-color: #2a7687;
+    border: 1px solid #2a7687;
+    cursor: pointer;
+}
+
+.contactbtn:hover {
+    background-color: #7fc6d6;
+}
+
+.canvas {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 500px;
+    opacity: 0.95;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.canvas:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .static-txt {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 80px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    color: #FC6D6D;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(3) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -230px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(26, 2, 82);
+    /*border-left: 2px solid #FC6D6D;*/
+    animation: typing 2s steps(10) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+.S {
+    --i: 1;
+}
+
+.U {
+    --i: 2;
+}
+
+.B {
+    --i: 3;
+}
+
+.H {
+    --i: 4;
+}
+
+.R {
+    --i: 5;
+}
+
+.A {
+    --i: 6;
+}
+
+.J {
+    --i: 7;
+}
+
+.I {
+    --i: 8;
+}
+
+.T {
+    --i: 9;
+}
+
+.D {
+    --i: 10;
+}
+
+.E {
+    --i: 11;
+}
+
+.Y {
+    --i: 12;
+}
+
+
+/* .name_ani {
+    position: relative;
+    font-family: 'Tapestry', cursive;
+    display: inline-block;
+}
+
+.name_ani_span {
+    font-size: 60px;
+    font-family: 'Tapestry', cursive;
+} */
+
+.name_ani {
+    position: relative;
+}
+
+.name_ani .name_ani_span {
+    position: relative;
+    display: inline-block;
+    animation: anima 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+    animation-play-state: running;
+}
+
+@keyframes anima {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-5px);
+    }
+    40% {
+        transform: translateY(5px);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    .about {
+        margin-bottom: 30px;
+    }
+    .contact {
+        margin-top: 10px;
+    }
+}
